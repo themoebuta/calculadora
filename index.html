@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>calculadora</title>
+    <link rel="stylesheet" href="resources\css\estilos.css">
 </head>
 <body>
-    
+    <div class="carcasa">
+        <div class="pantalla">
+            <p id="mostrar"></p>
+        </div>
+        <button class="boton" id="uno" value="1" onclick="imprimir(1)">1</button>
+        <button class="boton" id="dos" value="2" onclick="imprimir(2)">2</button>
+        <button class="boton" id="tres" value="3" onclick="imprimir(3)">3</button>
+        <button class="boton" id="suma" value="+" onclick="operador()">+</button> <br>
+        <button class="boton" id="cuatro" value="4" onclick="imprimir(4)">4</button>
+        <button class="boton" id="cinco" value="5" onclick="imprimir(5)">5</button>
+        <button class="boton" id="seis" value="6" onclick="imprimir(6)">6</button>
+        <button class="boton" id="resta" value="-"onclick="operador()" >-</button> <br>
+        <button class="boton" id="siete" value="7" onclick="imprimir(7)">7</button>
+        <button class="boton" id="ocho" value="8" onclick="imprimir(8)">8</button>
+        <button class="boton" id="nueve" value="9" onclick="imprimir(9)">9</button>
+        <button class="boton" id="multiplicar" value="x" onclick="operador()">x</button><br>
+        <button class="boton" id="dividir" value="//" onclick="operador()">/</button>
+        <button class="boton" id="exponenciar" value="**" onclick="operador()">**</button>
+        <button class="boton" id="raiz" value="r">r</button>
+        <button class="boton" id="igual" value="=">=</button><br>
+    </div>
+<script src="resources\js\script.js"></script>
 </body>
 </html>
